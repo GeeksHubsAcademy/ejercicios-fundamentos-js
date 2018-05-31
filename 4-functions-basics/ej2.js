@@ -13,7 +13,7 @@ let convierteString = (numero) => {
 }
 
 
-let test = require('./test.js');
+let test = require('../test.js');
 //  test(functionTotest, [argumento1,argumento2, etc..],  expectedOutput) 
 // comprueba si: convierteString(1) === '1'
 test(convierteString, [1], '1');

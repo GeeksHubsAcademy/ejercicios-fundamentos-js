@@ -18,7 +18,7 @@ let sumaDesdeHasta = (desde, hasta) => {
 }
 
 
-let test = require('./test.js');
+let test = require('../test.js');
 
 test(sumaDesdeHasta, [1, 2], 3);
 test(sumaDesdeHasta, [2, 2], 2);

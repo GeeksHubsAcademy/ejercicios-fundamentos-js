@@ -19,7 +19,7 @@ let transformaArrayEnOtraConSusLongitudes = (arrayDeStrings) => {
 }
 
 
-let test = require('./test.js');
+let test = require('../test.js');
 test(transformaArrayEnOtraConSusLongitudes, [
     ['juan', 'paco', 'pepe']
 ], [4, 4, 4]);

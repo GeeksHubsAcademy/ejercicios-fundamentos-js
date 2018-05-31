@@ -17,7 +17,7 @@ const conCuantosParametrosMeHanEjecutado;
 // Hasta aquí.
 
 
-let test = require('./test.js');
+let test = require('../test.js');
 
 // console.log(conCuantosParametrosMeHanEjecutado(1, 2, 3, 4) === 4);
 // console.log(conCuantosParametrosMeHanEjecutado('aswd') === 1);

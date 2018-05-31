@@ -20,7 +20,7 @@ let extraerAcronimo = (...input) => {
 }
 
 
-let test = require('./test.js');
+let test = require('../test.js');
 
 test(extraerAcronimo, ['Estudiante', 'Del', 'Bootcamp', 'Fullstack', 'Geekshubs'], 'EDBFG');
 test(extraerAcronimo, ['hola', 'caracola'], 'hc');
